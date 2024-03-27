@@ -7,12 +7,12 @@ plugins {
     `embedded-kotlin`
 }
 
-group = "com.uselessmnemonic.gradle"
+group = "com.uselessmnemonic"
 version = "0.9.0"
 
 gradlePlugin {
-    website = "https://github.com/UselessMnemonic/jasm-gradle-plugin"
-    vcsUrl = "https://github.com/UselessMnemonic/jasm-gradle-plugin.git"
+    website = "https://github.com/UselessMnemonic/jasm-plugin"
+    vcsUrl = "https://github.com/UselessMnemonic/jasm-plugin.git"
     plugins {
         create("jasm-plugin") {
             id = "com.uselessmnemonic.jasm-plugin"
@@ -37,11 +37,11 @@ publishing {
             pom {
                 name = "JASM"
                 description = "Jasm JVM Assembler plugin for Gradle"
-                url = "https://github.com/UselessMnemonic/jasm-gradle-plugin"
+                url = "https://github.com/UselessMnemonic/jasm-plugin"
                 licenses {
                     license {
                         name = "MIT"
-                        url = "https://github.com/UselessMnemonic/jasm-gradle-plugin/blob/main/LICENSE.md"
+                        url = "https://github.com/UselessMnemonic/jasm-plugin/blob/main/LICENSE.md"
                     }
                 }
                 developers {
@@ -57,9 +57,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "https://github.com/UselessMnemonic/jasm-gradle-plugin/blob/main/LICENSE.md"
-                    developerConnection = "git@github.com:UselessMnemonic/jasm-gradle-plugin.git"
-                    url = "https://github.com/UselessMnemonic/jasm-gradle-plugin"
+                    connection = "https://github.com/UselessMnemonic/jasm-plugin/blob/main/LICENSE.md"
+                    developerConnection = "git@github.com:UselessMnemonic/jasm-plugin.git"
+                    url = "https://github.com/UselessMnemonic/jasm-plugin"
                 }
             }
         }
