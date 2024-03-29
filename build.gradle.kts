@@ -12,7 +12,7 @@ version = "0.9.0"
 
 gradlePlugin {
     website = "https://github.com/UselessMnemonic/jasm-plugin"
-    vcsUrl = "https://github.com/UselessMnemonic/jasm-plugin.git"
+    vcsUrl = "https://github.com/UselessMnemonic/jasm-plugin"
     plugins {
         create("jasm-plugin") {
             id = "com.uselessmnemonic.jasm-plugin"
@@ -35,7 +35,7 @@ publishing {
         create<MavenPublication>("maven") {
             from(components["java"])
             pom {
-                name = "JASM"
+                name = "jasm-plugin"
                 description = "Jasm JVM Assembler plugin for Gradle"
                 url = "https://github.com/UselessMnemonic/jasm-plugin"
                 licenses {
@@ -57,8 +57,7 @@ publishing {
                     }
                 }
                 scm {
-                    connection = "https://github.com/UselessMnemonic/jasm-plugin/blob/main/LICENSE.md"
-                    developerConnection = "git@github.com:UselessMnemonic/jasm-plugin.git"
+                    connection = "scm:git:git://github.com/UselessMnemonic/jasm-plugin"
                     url = "https://github.com/UselessMnemonic/jasm-plugin"
                 }
             }
