@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.uselessmnemonic"
-version = "0.9.0"
+version = "1.0.0"
 
 gradlePlugin {
     website = "https://github.com/UselessMnemonic/jasm-plugin"

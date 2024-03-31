@@ -38,7 +38,7 @@ Add the following in your `build.gradle.kts`:
 
 ```kotlin
 plugins {
-    id("com.uselessmnemonic.jasm-plugin") version "0.9.0"
+    id("com.uselessmnemonic.jasm-plugin") version "1.0.0"
 }
 ```
 
